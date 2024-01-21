@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: myGrapeNuts;
+    src: url(fonts/GrapeNuts-Regular.ttf);
+}
+
+h1 {
+    font-family: myGrapeNuts;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 3em;
+    width: 400px;
+    border-bottom: 2px solid pink;
+    text-align: center;
+    border-right: 2px solid pink;
+    box-shadow: 4px 4px 5px #888;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
